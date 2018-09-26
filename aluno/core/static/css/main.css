@@ -1,0 +1,39 @@
+.containerTamanho{
+    margin: 0 auto;
+    width: 100%;
+}
+nav {
+    color: #000000 !important;
+    background-color: #FFF5EE !important;
+}
+
+.page-footer {
+    color: #000000 !important;
+    background-color: #FFF5EE !important;
+}
+@media only screen and (min-width: 993px) {
+    .containerTamanho {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:  601px) {
+    .containerTamanho {
+        width: 100%;
+    }
+}
+
+.texto-cinza{
+    color: #4F4F4F !important;
+}
+
+.texto-cinza-claro{
+    color: #696969 !important;
+}
+.layoutBasicOrientation{
+    padding: 1%;
+}
+.columnOrientations{
+    max-width: 33%;
+}
