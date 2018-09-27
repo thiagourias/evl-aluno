@@ -1,23 +1,44 @@
 {% include 'imports.html' %}
 <html lang="pt-br">
 <head>
+    <header>
+        {% include 'header.html' %}
+    </header>
     <meta charset="UTF-8">
     <title>Página de acompanhamento - Aluno</title>
 </head>
 <body>
-    <header>
-        {% include 'header.html' %}
-    </header>
 
 
 
-    teste
 
-
-
+    <div class="view hm-white-light jarallax marginTopHome" data-jarallax='{"speed": 0.2}' data-jarallax-video="https://www.youtube.com/watch?v=wDE4BlN2yI4&index=74&list=PLMTfiLScYpP4a8MSHoyMcRmNdSwV7ghK9">
+        <div class="full-bg-img">
+            <div class="container flex-center">
+                <div class="row">
+                    <div class="col-md-12 wow fadeIn">
+                        <div class="text-center titleFontProperties">
+                            <h1 class="display-2 mb-2 wow fadeInDown" data-wow-delay="0.3s">Página do Aluno</h1>
+                            <hr class="my-4">
+                            <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.4s"><i class="fa fa-list-ul"></i> Meus Cursos</a>
+                            <a class="btn btn-success btn-lg wow fadeInDown" data-wow-delay="0.4s"><i class="fa fa-file-text-o"></i> Comprovantes</a>
+                            <a class="btn btn-danger btn-lg wow fadeInDown" data-wow-delay="0.4s"><i class="fa fa-graduation-cap"></i> Certificados</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         {% include 'footer.html' %}
     </footer>
 </body>
+
+<script src="https://headervideo.github.io/hvheadervideo/js/mdb.min.js"></script>
+<script src="https://headervideo.github.io/hvheadervideo/js/jarallax.js"></script>
+<script src="https://headervideo.github.io/hvheadervideo/js/jarallax-video.js"></script>
+<script>
+    new WOW().init();
+</script>
 </html>

@@ -2,40 +2,122 @@
     margin: 0 auto;
     width: 100%;
 }
-nav {
+.navColor {
     color: #000000 !important;
-    background-color: #FFF5EE !important;
+    background-color: whitesmoke !important;
 }
 
 .page-footer {
     color: #000000 !important;
-    background-color: #FFF5EE !important;
+    background-color: whitesmoke !important;
 }
-@media only screen and (min-width: 993px) {
-    .containerTamanho {
-        width: 100%;
+
+.widthItensNavbar{
+    width: 100%;
+}
+@media screen and
+(min-width: 200px) and
+(max-width: 640px){
+    .logoProperties {
+        width: 100px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
     }
 
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto !important;
+        flex-basis: auto !important;
+
+    }
+
+    .widthLogoNavbar{
+        width: 100%;
+    }
+    .textBasicOrientationNav{
+        text-align: center !important;
+        vertical-align: middle;
+    }
+
+    .marginTopHome{
+        margin-top: 28%;
+    }
+    .fixed-top-nav {
+        position: absolute !important;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+}
+
+
+@media screen and
+(min-width: 641px) and
+(max-width: 991px){
+    .logoProperties {
+        width: 100px;
+        height: 40px !important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-preferred-size: auto !important;
+        flex-basis: auto !important;
+
+    }
+    .textBasicOrientationNav{
+        text-align: center !important;
+        vertical-align: middle;
+    }
+    .marginTopHome{
+        margin-top: 28%;
+    }
+
+    .fixed-top-nav {
+        position: absolute !important;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+}
+
+@media screen and
+(min-width: 992px) and
+(max-width: 4080px){
     .logoProperties{
         margin: 1% !important;
         width: 100px;
         height: 40px;
     }
 
+    .fixed-top-nav {
+        position: fixed !important;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    .marginTopHome{
+        margin-top: 5%;
+    }
 
 }
 
-@media only screen and (min-width:  601px) {
-    .containerTamanho {
-        width: 100%;
-    }
-    .logoProperties{
-        width: 100px;
-        height: 40px;
-        margin-left: 40%;
-        margin-top: 1%;
-    }
 
+.textBasicOrientationNav{
+    text-align: left;
+}
+.containerTamanho {
+    width: 100%;
 }
 
 .texto-cinza{
@@ -51,6 +133,24 @@ nav {
 .columnOrientations{
     max-width: 33%;
 }
+.titlePropertiesNavbar{
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    text-shadow: 1px 2px 13px rgba(154, 150, 150, 1);
+}
 
+.textBasicOrientation{
+    text-align: center;
+    vertical-align: middle !important;
+}
+.marginTopTextNav{
+    margin-top: 1%;
+}
+.titleFontProperties{
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 2px 13px rgba(154, 150, 150, 1);
 
+}
 
