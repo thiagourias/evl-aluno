@@ -18,4 +18,7 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^$', 'aluno.core.views.home', name='home'),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^meuscursos/', 'aluno.core.views.meusCursos', name='meusCursos'),
+    url(r'^certificados/', 'aluno.core.views.certificados', name='certificados'),
+    url(r'^comprovantes/', 'aluno.core.views.comprovantes', name='comprovantes'),
 ]

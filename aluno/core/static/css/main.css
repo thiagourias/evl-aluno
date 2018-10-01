@@ -176,7 +176,7 @@
     margin-top: 1%;
 }
 .titleFontProperties{
-    color: white;
+    color: ghostwhite;
     font-weight: bold;
     text-shadow: 1px 2px 13px rgba(154, 150, 150, 1);
 
@@ -199,4 +199,27 @@
     -o-transition: 3s;
     transition: 3s;
     margin-left: 50% !important;
+}
+
+.footerTextProperties{
+    font-size: 12px !important;
+    text-align: justify !important;
+}
+
+.footerTitleProperties{
+    font-size: 15px !important;
+}
+
+.botoesMenuAluno{
+    width: 30% !important;
+}
+.marginBotoesMenuAluno{
+    margin-right: 5% !important;
+}
+.marginBottomPosNav{
+    margin-bottom: 10%;
+}
+.verticalAlignText{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
 }
