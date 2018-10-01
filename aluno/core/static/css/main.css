@@ -176,7 +176,7 @@
     margin-top: 1%;
 }
 .titleFontProperties{
-    color: ghostwhite;
+    color: white;
     font-weight: bold;
     text-shadow: 1px 2px 13px rgba(154, 150, 150, 1);
 
@@ -222,4 +222,16 @@
 .verticalAlignText{
     margin-top: auto !important;
     margin-bottom: auto !important;
+}
+.bgHome{
+    background-image: url(../pix/home.jpg) !important;
+}
+.bgMeusCursos{
+    background-image: url(../pix/meus-cursos.jpg) !important;
+}
+.bgComprovantes{
+    background-image: url(../pix/comprovantes.jpg) !important;
+}
+.bgCertificados{
+    background-image: url(../pix/certificados.jpg) !important;
 }
