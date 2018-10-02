@@ -249,6 +249,10 @@
     display: inline !important;
 }
 
+.visibilityItemMenu{
+    visibility: visible !important;
+}
+
 /* CSS MENU START */
 
 body,html{
@@ -372,6 +376,20 @@ section{
 
 .tamNavBar{
     width: 90% !important;
+}
+
+.mobile {
+    opacity: 1; /* Esconde no desktop. */
+    height: auto;
+}
+
+@media only screen and (max-width: 765px) {
+    .mobile {
+        display: none !important;
+        opacity: 0; /* Só aparece no mobile. */
+        height: 0 !important;
+
+    }
 }
 
 /* CSS MENU END   */
